@@ -9,6 +9,7 @@ from .email import send_password_reset_email
 from .forms import PasswordResetForm, LoginForm, RegistrationForm, ResetPasswordRequestForm
 
 from app.models import User
+from app import db
 
 from . import bp
 
